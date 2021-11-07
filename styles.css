@@ -1,0 +1,169 @@
+.zaciatok{
+    display: flex;
+    align-items: space-between;
+    justify-content:space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+.oia{
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.search{
+    justify-content: start;
+    margin: auto;
+}
+.obr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#big_text{
+    font-size: 28px;
+}
+#site-search{
+    background-color: grey;
+    border-radius: 8px;
+}
+#killme{
+    color: gray;
+}
+
+
+
+.vonok{
+    display: flex;
+;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.vnutro{
+    background-color: rgb(196, 193, 193);
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 225px;
+}
+.nadpisi{
+    color: green;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    margin-left: 20px;
+}
+.texty{
+    color: grey;
+    margin-left: 20px;
+}
+
+
+
+#nadpisiobr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.textobr{
+    display: flex;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+.skap{
+    margin-right: 200px;
+}
+.nadpisi2{
+    color: green;
+    margin-left: 5px;
+}
+.vnutro2a{
+    display: flex;
+    margin: 5px;
+}
+.vnutro2b{
+    display: flex;
+    margin: 5px;
+}
+.vnutro2c{
+    display: flex;
+    margin: 5px;
+}
+.vnutro2d{
+    display: flex;
+    margin: 5px;
+}
+.texty2{
+    color: gray;
+    margin-left: 3px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 150px 150px;
+    margin-right: 100px;
+}
+.neviem{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.uz{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.obrosoby{
+    margin: 5px;
+}
+
+
+.vonok3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    flex-grow: 1;
+    background-color: rgb(34, 34, 34);
+}
+.vnutro3{
+    margin-right: auto;
+    margin-left: 10px;
+    max-width: 255px;
+}
+.nadpisi3{
+    color: grey;
+    font-weight: bold;
+}
+.texty3{
+    color: gray;
+    font-family:'Times New Roman', Times, serif;
+}
+.fname{
+    background-color: rgb(77, 77, 77);
+}
+.ok{
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    border: none;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button{
+    border-radius: 8px;
+    padding: 4px 9px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    border: none;
+}
