@@ -1,3 +1,29 @@
+input{
+    border: none;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button{
+    border-radius: 8px;
+    padding: 4px 9px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+
+
+
+
+
+
 .zaciatok{
     display: flex;
     align-items: space-between;
@@ -15,12 +41,54 @@
     justify-content: start;
     margin: auto;
 }
+.help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .obr{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.klietka{
+    display: flex;
+    max-width: 1000px;
+    background-color: rgb(32, 32, 32);
+    justify-content:space-between;
+}
+.big_lista{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.lista{
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    color:white;
+}
+.listaa{
+    margin-right: 93px;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    color:white;
+}
+.lista_bloky{
+    border-right: 2px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.lista_odkazy{
+    font-size: 15px;
+    color:white;
+    
+}
+.lista_odkazy:hover{
+    color: rgb(10, 197, 10);
 }
 #big_text{
     font-size: 28px;
@@ -148,22 +216,3 @@
 }
 
 
-input{
-    border: none;
-}
-a{
-    color: green;
-    text-decoration: none;
-}
-hr{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-button{
-    border-radius: 8px;
-    padding: 4px 9px;
-    font-size: 15px;
-    color: white;
-    background-color: green;
-    border: none;
-}

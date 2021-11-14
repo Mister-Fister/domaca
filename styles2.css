@@ -1,0 +1,11 @@
+.tanky{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blyat{
+    margin: auto;
+}
+p{
+    text-align: center;
+    font-size: 200px;
+}
